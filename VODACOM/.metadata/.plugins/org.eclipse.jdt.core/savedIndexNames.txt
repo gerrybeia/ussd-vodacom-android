@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/Volumes/DATA/Drive/WORKS/PERSONAL/USSD/VODACOM/.metadata/.plugins/org.eclipse.jdt.core
+4156402607.index
+1791486858.index
+1040928417.index
+2004377996.index

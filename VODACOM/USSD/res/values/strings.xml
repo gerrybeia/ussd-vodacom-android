@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USSD</string>
+    
+    <string name="action_info">Info</string>
+    
+    <string name="internet">Forfait Internet</string>
+    <string name="content_description">Image decrivant la quantite de megabytes</string>
+
+</resources>

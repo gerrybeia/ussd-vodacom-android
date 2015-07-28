@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.schieben.ussd.model.Movie&apos; to &apos;Forfait&apos;&#x0A;- Original project: &apos;USSD&apos;&#x0A;- Original element: &apos;com.schieben.ussd.model.Movie&apos;&#x0A;- Renamed element: &apos;com.schieben.ussd.model.Forfait&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Movie&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.schieben.ussd.model{Movie.java[Movie" matchStrategy="1" name="Forfait" qualified="false" references="true" similarDeclarations="false" stamp="1421826799543" textual="false" version="1.0"/>
+</session>

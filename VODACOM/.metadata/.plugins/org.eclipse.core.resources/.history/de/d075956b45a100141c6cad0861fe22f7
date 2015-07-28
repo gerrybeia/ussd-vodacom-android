@@ -1,0 +1,42 @@
+package com.schieben.ussd.fragment;
+
+import java.util.List;
+
+import com.schieben.ussd.R;
+import com.schieben.ussd.adapter.CustomListAdapter;
+import com.schieben.ussd.model.Forfait;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class InternetFragment  extends Fragment {
+	
+	private CustomListAdapter adapter;
+	private List<Forfait> forfaitListe;
+	
+	@Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.fragment_internet, container, false);
+        
+        ListView listview = (ListView) rootView.findViewById(R.id.listActivation);
+        adapter = new CustomListAdapter(getActivity(), forfaitListe);
+        //listview.setAdapter(adapter);        
+        
+        //Forfait f = new Forfait("oo", "none");
+        
+        //forfaitListe.add(f);
+        //adapter.notifyDataSetChanged();
+        
+        return rootView;
+    }
+
+
+}
